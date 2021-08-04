@@ -35,7 +35,7 @@ Each employee is generated using a total of 4 questions. All being the same exce
 - [Jest](https://www.npmjs.com/package/jest) : Sourced to run tests on the code.
 - [Inquirer](https://www.npmjs.com/package/inquirer) : Sourced to download modules and code used to run inquirer.
 
-## Video Link
+## Application Media
 
 I've included a link to a quick video tutorial that goes through the steps to make this app work.
 
