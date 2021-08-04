@@ -7,6 +7,7 @@ I've created a Node.js app that allows you to input information and returns it t
 
 ## App Walkthrough
 
+
 AS a Developer
 WHEN I approach the command line for my app and input Node 'index.js'
 THEN I am prompted with a series of questions that will create my team
@@ -31,9 +32,16 @@ Each employee is generated using a total of 4 questions. All being the same exce
 # Resources
 
 
-[Jest](https://www.npmjs.com/package/jest) : Sourced to run tests on the code.
-[Inquirer](https://www.npmjs.com/package/inquirer) : Sourced to download modules and code used to run inquirer.
+- [Jest](https://www.npmjs.com/package/jest) : Sourced to run tests on the code.
+- [Inquirer](https://www.npmjs.com/package/inquirer) : Sourced to download modules and code used to run inquirer.
 
 ## Video Link
 
-I've included a link to a quick video tutorial that goes through the steps(((((()))))) to make this app work.((((((()))))))
+I've included a link to a quick video tutorial that goes through the steps to make this app work.
+
+ - [Video](https://drive.google.com/file/d/1AYVjkh-Iv9gnhRrrg4hHce6Day7FZ07a/view)
+
+
+ - [Github](https://github.com/KyaahB/Team-Generator)
+
+ 

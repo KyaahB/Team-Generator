@@ -42,7 +42,7 @@ const newHTML = require('./index.js')
     <h1>Team Generator</h1>  
     <h3>Your team profile has been generated!!<h3> 
     </header>
-        <div class="container">
+        <div class="container d-flex">
     
          ${data.map((employee) => {
           return renderEmployeeCard(employee)
