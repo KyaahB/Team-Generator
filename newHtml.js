@@ -1,12 +1,10 @@
 
 const newHTML = require('./index.js')
 
-// // const employees = newHtml({
-//     title: 'My Team'
-//   })
+
 
   const renderEmployeeCard = (employee) => {
-    return `<div class="card m-3" style="width: 18rem;">
+    return `<div class="container" style="width: 18rem;">
     <div class="card-body">
       <h5 class="card-title">${employee.name}</h5>
       <h6 class="card-subtitle mb-2 text-muted">${employee.getRole()}</h6>
@@ -37,9 +35,14 @@ const newHTML = require('./index.js')
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="/dist/style.css" />
     </head>
     <body>
-        <div class="container d-flex">
+    <header>
+    <h1>Team Generator</h1>  
+    <h3>Your team profile has been generated!!<h3> 
+    </header>
+        <div class="container">
     
          ${data.map((employee) => {
           return renderEmployeeCard(employee)
@@ -51,19 +54,7 @@ const newHTML = require('./index.js')
     </html>`
   }
 
-  // const createHTML = newHtml({
-  //   title: 'My Team',
-  //   script: 'team.js',
-  //   scriptAsync: true,
-  //   css: 'style.css',
-  //   lang: 'en',
-  //   head: '<meta name="description" content="example">',
-  //   body: '<p>example</p>',
-  // });
-
   
-
-
   module.exports = createHTML
 
 

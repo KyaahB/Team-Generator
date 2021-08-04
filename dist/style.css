@@ -1,0 +1,30 @@
+.card-body{
+    border-style:dotted;
+    border-color: gray;
+    background-color: greenyellow;
+}    
+
+header{
+    color:green;
+    padding: 20px;
+    text-align: center;
+    background: lightgreen;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.container {
+    /* background-color: rgb(239, 253, 213); */
+    margin: 25px;
+    display:flex;
+    justify-content: center ;
+    flex-wrap: wrap;
+    
+}
+
+body{
+    background-color:rgb(201, 253, 201);
+    margin: 100px;
+}
+
+
