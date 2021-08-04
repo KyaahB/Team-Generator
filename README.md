@@ -5,7 +5,7 @@
 I've created a Node.js app that allows you to input information and returns it to generate an HTML page. I've also written a series of tests to check my code and return passing test reports to make sure everything is correct and working the way it needs to.
 
 
-## User Story
+## App Walkthrough
 
 AS a Developer
 WHEN I approach the command line for my app and input Node 'index.js'
@@ -15,7 +15,7 @@ THEN you will be presented with more questions about your employees to build you
 WHEN the questions are all answered you will be prompted again which will allow you to add more employees or none. If an employee type is selected then the question process will start over again to create your new employee. If none are chosen, the HTML will generate.
 
 
-## App Walkthrough
+# Requirements
 
 Each employee is generated using a total of 4 questions. All being the same except for one which will be specific to the job title. Each share 3 simple questions regarding the employees (Name, ID #, and Email). The info needed for the additional job role specific question is listed below:
 
